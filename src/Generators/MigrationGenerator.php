@@ -1,16 +1,16 @@
 <?php
 
-namespace Lartisan\Dictionary\Generators;
+namespace ribeiroconde\Dictionary\Generators;
 
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Str;
-use Lartisan\Dictionary\Enums\GenerationMode;
-use Lartisan\Dictionary\Models\Blueprint as DictionaryBlueprint;
-use Lartisan\Dictionary\Models\BlueprintRevision;
-use Lartisan\Dictionary\ValueObjects\BlueprintData;
-use Lartisan\Dictionary\ValueObjects\ColumnDefinition;
+use ribeiroconde\Dictionary\Enums\GenerationMode;
+use ribeiroconde\Dictionary\Models\Blueprint as DictionaryBlueprint;
+use ribeiroconde\Dictionary\Models\BlueprintRevision;
+use ribeiroconde\Dictionary\ValueObjects\BlueprintData;
+use ribeiroconde\Dictionary\ValueObjects\ColumnDefinition;
 
 readonly class MigrationGenerator extends AbstractGenerator
 {

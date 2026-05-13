@@ -1,10 +1,10 @@
 <?php
 
-namespace Lartisan\Dictionary\Support;
+namespace ribeiroconde\Dictionary\Support;
 
 use Closure;
 use InvalidArgumentException;
-use Lartisan\Dictionary\Contracts\DictionaryBlockProvider;
+use ribeiroconde\Dictionary\Contracts\DictionaryBlockProvider;
 
 class DictionaryBlockRegistry
 {

@@ -1,21 +1,21 @@
 <?php
 
-namespace Lartisan\Dictionary\Tests\Feature;
+namespace ribeiroconde\Dictionary\Tests\Feature;
 
 use Illuminate\Database\Schema\Blueprint as SchemaBlueprint;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Schema;
-use Lartisan\Dictionary\DictionaryPlugin;
-use Lartisan\Dictionary\Generators\MigrationGenerator;
-use Lartisan\Dictionary\Generators\ModelGenerator;
-use Lartisan\Dictionary\Livewire\DictionaryWizard;
-use Lartisan\Dictionary\Models\Blueprint;
-use Lartisan\Dictionary\Models\BlueprintRevision;
-use Lartisan\Dictionary\Support\GenerationPathResolver;
-use Lartisan\Dictionary\Tests\TestCase;
-use Lartisan\Dictionary\ValueObjects\BlueprintData;
+use ribeiroconde\Dictionary\DictionaryPlugin;
+use ribeiroconde\Dictionary\Generators\MigrationGenerator;
+use ribeiroconde\Dictionary\Generators\ModelGenerator;
+use ribeiroconde\Dictionary\Livewire\DictionaryWizard;
+use ribeiroconde\Dictionary\Models\Blueprint;
+use ribeiroconde\Dictionary\Models\BlueprintRevision;
+use ribeiroconde\Dictionary\Support\GenerationPathResolver;
+use ribeiroconde\Dictionary\Tests\TestCase;
+use ribeiroconde\Dictionary\ValueObjects\BlueprintData;
 use Livewire\Livewire;
 
 class DictionaryWizardTest extends TestCase

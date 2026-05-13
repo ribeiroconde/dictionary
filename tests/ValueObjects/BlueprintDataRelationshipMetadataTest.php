@@ -1,6 +1,6 @@
 <?php
 
-use Lartisan\Dictionary\ValueObjects\BlueprintData;
+use ribeiroconde\Dictionary\ValueObjects\BlueprintData;
 
 it('round-trips relationship metadata through blueprint form data', function () {
     $blueprint = BlueprintData::fromArray([

@@ -4,10 +4,10 @@ use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Schema;
-use Lartisan\Dictionary\Generators\MigrationGenerator;
-use Lartisan\Dictionary\Models\Blueprint as DictionaryBlueprint;
-use Lartisan\Dictionary\Tests\TestCase;
-use Lartisan\Dictionary\ValueObjects\BlueprintData;
+use ribeiroconde\Dictionary\Generators\MigrationGenerator;
+use ribeiroconde\Dictionary\Models\Blueprint as DictionaryBlueprint;
+use ribeiroconde\Dictionary\Tests\TestCase;
+use ribeiroconde\Dictionary\ValueObjects\BlueprintData;
 
 uses(TestCase::class);
 

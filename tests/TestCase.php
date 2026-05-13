@@ -1,6 +1,6 @@
 <?php
 
-namespace Lartisan\Dictionary\Tests;
+namespace ribeiroconde\Dictionary\Tests;
 
 use BladeUI\Heroicons\BladeHeroiconsServiceProvider;
 use BladeUI\Icons\BladeIconsServiceProvider;
@@ -13,7 +13,7 @@ use Filament\Schemas\SchemasServiceProvider;
 use Filament\Support\SupportServiceProvider;
 use Filament\Tables\TablesServiceProvider;
 use Filament\Widgets\WidgetsServiceProvider;
-use Lartisan\Dictionary\DictionaryServiceProvider;
+use ribeiroconde\Dictionary\DictionaryServiceProvider;
 use Livewire\LivewireServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 

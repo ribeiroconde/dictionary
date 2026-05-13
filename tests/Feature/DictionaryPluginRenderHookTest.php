@@ -3,8 +3,8 @@
 use Filament\Panel;
 use Filament\Support\Facades\FilamentView;
 use Filament\View\PanelsRenderHook;
-use Lartisan\Dictionary\DictionaryPlugin;
-use Lartisan\Dictionary\Tests\TestCase;
+use ribeiroconde\Dictionary\DictionaryPlugin;
+use ribeiroconde\Dictionary\Tests\TestCase;
 
 uses(TestCase::class);
 

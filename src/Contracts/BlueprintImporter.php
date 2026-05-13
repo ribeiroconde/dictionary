@@ -1,8 +1,8 @@
 <?php
 
-namespace Lartisan\Dictionary\Contracts;
+namespace ribeiroconde\Dictionary\Contracts;
 
-use Lartisan\Dictionary\ValueObjects\BlueprintData;
+use ribeiroconde\Dictionary\ValueObjects\BlueprintData;
 
 interface BlueprintImporter
 {

@@ -1,14 +1,14 @@
 <?php
 
-namespace Lartisan\Dictionary\Generators;
+namespace ribeiroconde\Dictionary\Generators;
 
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
-use Lartisan\Dictionary\Enums\GenerationMode;
-use Lartisan\Dictionary\Support\GenerationPathResolver;
-use Lartisan\Dictionary\Support\ModelUpdater;
-use Lartisan\Dictionary\Support\RelationshipModelResolver;
-use Lartisan\Dictionary\ValueObjects\BlueprintData;
+use ribeiroconde\Dictionary\Enums\GenerationMode;
+use ribeiroconde\Dictionary\Support\GenerationPathResolver;
+use ribeiroconde\Dictionary\Support\ModelUpdater;
+use ribeiroconde\Dictionary\Support\RelationshipModelResolver;
+use ribeiroconde\Dictionary\ValueObjects\BlueprintData;
 
 readonly class ModelGenerator extends AbstractGenerator
 {

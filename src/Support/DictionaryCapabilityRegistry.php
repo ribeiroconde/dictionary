@@ -1,9 +1,9 @@
 <?php
 
-namespace Lartisan\Dictionary\Support;
+namespace ribeiroconde\Dictionary\Support;
 
 use Closure;
-use Lartisan\Dictionary\Contracts\DictionaryCapabilityResolver;
+use ribeiroconde\Dictionary\Contracts\DictionaryCapabilityResolver;
 
 class DictionaryCapabilityRegistry implements DictionaryCapabilityResolver
 {

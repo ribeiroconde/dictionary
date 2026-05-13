@@ -4,15 +4,15 @@ use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Schema;
-use Lartisan\Dictionary\Actions\DictionaryAction;
-use Lartisan\Dictionary\Exceptions\InvalidBlueprintException;
-use Lartisan\Dictionary\Models\Blueprint as DictionaryBlueprint;
-use Lartisan\Dictionary\Models\BlueprintRevision;
-use Lartisan\Dictionary\Support\BlueprintGenerationService;
-use Lartisan\Dictionary\Support\GenerationPathResolver;
-use Lartisan\Dictionary\Support\RegenerationPlanner;
-use Lartisan\Dictionary\Tests\TestCase;
-use Lartisan\Dictionary\ValueObjects\BlueprintData;
+use ribeiroconde\Dictionary\Actions\DictionaryAction;
+use ribeiroconde\Dictionary\Exceptions\InvalidBlueprintException;
+use ribeiroconde\Dictionary\Models\Blueprint as DictionaryBlueprint;
+use ribeiroconde\Dictionary\Models\BlueprintRevision;
+use ribeiroconde\Dictionary\Support\BlueprintGenerationService;
+use ribeiroconde\Dictionary\Support\GenerationPathResolver;
+use ribeiroconde\Dictionary\Support\RegenerationPlanner;
+use ribeiroconde\Dictionary\Tests\TestCase;
+use ribeiroconde\Dictionary\ValueObjects\BlueprintData;
 
 uses(TestCase::class);
 

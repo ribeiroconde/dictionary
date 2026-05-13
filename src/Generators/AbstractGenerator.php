@@ -1,10 +1,10 @@
 <?php
 
-namespace Lartisan\Dictionary\Generators;
+namespace ribeiroconde\Dictionary\Generators;
 
 use Illuminate\Support\Facades\File;
-use Lartisan\Dictionary\Support\GeneratedCodeFormatter;
-use Lartisan\Dictionary\ValueObjects\BlueprintData;
+use ribeiroconde\Dictionary\Support\GeneratedCodeFormatter;
+use ribeiroconde\Dictionary\ValueObjects\BlueprintData;
 
 abstract readonly class AbstractGenerator
 {

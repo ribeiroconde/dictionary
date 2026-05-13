@@ -1,11 +1,11 @@
 <?php
 
-namespace Lartisan\Dictionary\Support;
+namespace ribeiroconde\Dictionary\Support;
 
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Schema;
-use Lartisan\Dictionary\Models\Blueprint;
+use ribeiroconde\Dictionary\Models\Blueprint;
 
 class BlueprintDeletionService
 {

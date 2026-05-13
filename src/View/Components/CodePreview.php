@@ -1,6 +1,6 @@
 <?php
 
-namespace Lartisan\Dictionary\View\Components;
+namespace ribeiroconde\Dictionary\View\Components;
 
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;

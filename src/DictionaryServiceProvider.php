@@ -1,23 +1,23 @@
 <?php
 
-namespace Lartisan\Dictionary;
+namespace ribeiroconde\Dictionary;
 
 use Filament\Support\Assets\Css;
 use Filament\Support\Assets\Js;
 use Filament\Support\Facades\FilamentAsset;
 use Filament\Support\Facades\FilamentIcon;
 use Illuminate\Support\Facades\Blade;
-use Lartisan\Dictionary\Commands\InstallCommand;
-use Lartisan\Dictionary\Commands\UpgradeCommand;
-use Lartisan\Dictionary\Contracts\DictionaryCapabilityResolver;
-use Lartisan\Dictionary\Livewire\DictionaryTrigger;
-use Lartisan\Dictionary\Livewire\DictionaryWizard;
-use Lartisan\Dictionary\Livewire\BlueprintsTable;
-use Lartisan\Dictionary\Support\DictionaryBlockRegistry;
-use Lartisan\Dictionary\Support\DictionaryCapabilityRegistry;
-use Lartisan\Dictionary\Support\DictionaryUiExtensionRegistry;
-use Lartisan\Dictionary\Support\BlueprintGenerationHookRegistry;
-use Lartisan\Dictionary\View\Components\CodePreview;
+use ribeiroconde\Dictionary\Commands\InstallCommand;
+use ribeiroconde\Dictionary\Commands\UpgradeCommand;
+use ribeiroconde\Dictionary\Contracts\DictionaryCapabilityResolver;
+use ribeiroconde\Dictionary\Livewire\DictionaryTrigger;
+use ribeiroconde\Dictionary\Livewire\DictionaryWizard;
+use ribeiroconde\Dictionary\Livewire\BlueprintsTable;
+use ribeiroconde\Dictionary\Support\DictionaryBlockRegistry;
+use ribeiroconde\Dictionary\Support\DictionaryCapabilityRegistry;
+use ribeiroconde\Dictionary\Support\DictionaryUiExtensionRegistry;
+use ribeiroconde\Dictionary\Support\BlueprintGenerationHookRegistry;
+use ribeiroconde\Dictionary\View\Components\CodePreview;
 use Livewire\Livewire;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
@@ -102,7 +102,7 @@ class DictionaryServiceProvider extends PackageServiceProvider
 
     protected function getAssetPackageName(): ?string
     {
-        return 'lartisan/filament-dictionary';
+        return 'ribeiroconde/filament-dictionary';
     }
 
     protected function getIcons(): array

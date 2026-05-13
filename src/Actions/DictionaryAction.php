@@ -1,6 +1,6 @@
 <?php
 
-namespace Lartisan\Dictionary\Actions;
+namespace ribeiroconde\Dictionary\Actions;
 
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
@@ -26,24 +26,24 @@ use Filament\Support\Exceptions\Halt;
 use Filament\Support\Icons\Heroicon;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Str;
-use Lartisan\Dictionary\DictionaryPlugin;
-use Lartisan\Dictionary\Enums\GenerationMode;
-use Lartisan\Dictionary\Generators\FactoryGenerator;
-use Lartisan\Dictionary\Generators\FilamentResourceGenerator;
-use Lartisan\Dictionary\Generators\MigrationGenerator;
-use Lartisan\Dictionary\Generators\ModelGenerator;
-use Lartisan\Dictionary\Generators\SeederGenerator;
-use Lartisan\Dictionary\Livewire\BlueprintsTable;
-use Lartisan\Dictionary\Support\DictionaryMigrationStatus;
-use Lartisan\Dictionary\Support\DictionaryUiExtensionRegistry;
-use Lartisan\Dictionary\Support\BlueprintGenerationService;
-use Lartisan\Dictionary\Support\GenerationPathResolver;
-use Lartisan\Dictionary\Support\RegenerationPlanner;
-use Lartisan\Dictionary\ValueObjects\BlueprintData;
-use Lartisan\Dictionary\ValueObjects\PlannedSchemaOperation;
-use Lartisan\Dictionary\ValueObjects\RegenerationPlan;
-use Lartisan\DictionaryPro\DictionaryProPlugin;
-use Lartisan\DictionaryPro\DictionaryProServiceProvider;
+use ribeiroconde\Dictionary\DictionaryPlugin;
+use ribeiroconde\Dictionary\Enums\GenerationMode;
+use ribeiroconde\Dictionary\Generators\FactoryGenerator;
+use ribeiroconde\Dictionary\Generators\FilamentResourceGenerator;
+use ribeiroconde\Dictionary\Generators\MigrationGenerator;
+use ribeiroconde\Dictionary\Generators\ModelGenerator;
+use ribeiroconde\Dictionary\Generators\SeederGenerator;
+use ribeiroconde\Dictionary\Livewire\BlueprintsTable;
+use ribeiroconde\Dictionary\Support\DictionaryMigrationStatus;
+use ribeiroconde\Dictionary\Support\DictionaryUiExtensionRegistry;
+use ribeiroconde\Dictionary\Support\BlueprintGenerationService;
+use ribeiroconde\Dictionary\Support\GenerationPathResolver;
+use ribeiroconde\Dictionary\Support\RegenerationPlanner;
+use ribeiroconde\Dictionary\ValueObjects\BlueprintData;
+use ribeiroconde\Dictionary\ValueObjects\PlannedSchemaOperation;
+use ribeiroconde\Dictionary\ValueObjects\RegenerationPlan;
+use ribeiroconde\DictionaryPro\DictionaryProPlugin;
+use ribeiroconde\DictionaryPro\DictionaryProServiceProvider;
 
 class DictionaryAction extends Action
 {

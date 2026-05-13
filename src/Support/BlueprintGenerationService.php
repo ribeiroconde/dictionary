@@ -1,22 +1,22 @@
 <?php
 
-namespace Lartisan\Dictionary\Support;
+namespace ribeiroconde\Dictionary\Support;
 
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Str;
-use Lartisan\Dictionary\Exceptions\InvalidBlueprintException;
-use Lartisan\Dictionary\Generators\FactoryGenerator;
-use Lartisan\Dictionary\Generators\FilamentResourceGenerator;
-use Lartisan\Dictionary\Generators\MigrationGenerator;
-use Lartisan\Dictionary\Generators\ModelGenerator;
-use Lartisan\Dictionary\Generators\SeederGenerator;
-use Lartisan\Dictionary\Models\Blueprint as DictionaryBlueprint;
-use Lartisan\Dictionary\ValueObjects\BlueprintData;
-use Lartisan\Dictionary\ValueObjects\PlannedSchemaOperation;
-use Lartisan\Dictionary\ValueObjects\RegenerationPlan;
+use ribeiroconde\Dictionary\Exceptions\InvalidBlueprintException;
+use ribeiroconde\Dictionary\Generators\FactoryGenerator;
+use ribeiroconde\Dictionary\Generators\FilamentResourceGenerator;
+use ribeiroconde\Dictionary\Generators\MigrationGenerator;
+use ribeiroconde\Dictionary\Generators\ModelGenerator;
+use ribeiroconde\Dictionary\Generators\SeederGenerator;
+use ribeiroconde\Dictionary\Models\Blueprint as DictionaryBlueprint;
+use ribeiroconde\Dictionary\ValueObjects\BlueprintData;
+use ribeiroconde\Dictionary\ValueObjects\PlannedSchemaOperation;
+use ribeiroconde\Dictionary\ValueObjects\RegenerationPlan;
 
 class BlueprintGenerationService
 {

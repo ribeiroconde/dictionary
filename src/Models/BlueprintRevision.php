@@ -1,11 +1,11 @@
 <?php
 
-namespace Lartisan\Dictionary\Models;
+namespace ribeiroconde\Dictionary\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use Lartisan\Dictionary\ValueObjects\BlueprintData;
-use Lartisan\Dictionary\ValueObjects\BlueprintRevisionSnapshot;
+use ribeiroconde\Dictionary\ValueObjects\BlueprintData;
+use ribeiroconde\Dictionary\ValueObjects\BlueprintRevisionSnapshot;
 
 class BlueprintRevision extends Model
 {

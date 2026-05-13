@@ -1,6 +1,6 @@
 <?php
 
-namespace Lartisan\Dictionary\Support\Concerns;
+namespace ribeiroconde\Dictionary\Support\Concerns;
 
 trait Resolvable
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Lartisan\Dictionary\Commands;
+namespace ribeiroconde\Dictionary\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Schema;
@@ -50,7 +50,7 @@ class InstallCommand extends Command
     {
         $this->components->task('Publishing migrations', function (): void {
             $this->callSilently('vendor:publish', [
-                '--provider' => 'Lartisan\\Dictionary\\DictionaryServiceProvider',
+                '--provider' => 'ribeiroconde\\Dictionary\\DictionaryServiceProvider',
                 '--tag' => 'dictionary-migrations',
             ]);
         });

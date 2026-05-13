@@ -1,9 +1,9 @@
 <?php
 
-namespace Lartisan\Dictionary\Support;
+namespace ribeiroconde\Dictionary\Support;
 
 use Illuminate\Support\Str;
-use Lartisan\Dictionary\ValueObjects\BlueprintData;
+use ribeiroconde\Dictionary\ValueObjects\BlueprintData;
 use PhpParser\BuilderFactory;
 use PhpParser\Comment\Doc;
 use PhpParser\Error;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Lartisan\Dictionary\Support;
+namespace ribeiroconde\Dictionary\Support;
 
 use PhpParser\Error;
 use PhpParser\Node\Expr;

@@ -1,11 +1,11 @@
 <?php
 
-namespace Lartisan\Dictionary\ValueObjects;
+namespace ribeiroconde\Dictionary\ValueObjects;
 
 use Illuminate\Support\Str;
-use Lartisan\Dictionary\Enums\GenerationMode;
-use Lartisan\Dictionary\Exceptions\InvalidBlueprintException;
-use Lartisan\Dictionary\Support\RelationshipModelResolver;
+use ribeiroconde\Dictionary\Enums\GenerationMode;
+use ribeiroconde\Dictionary\Exceptions\InvalidBlueprintException;
+use ribeiroconde\Dictionary\Support\RelationshipModelResolver;
 
 readonly class BlueprintData
 {

@@ -6,10 +6,10 @@ A powerful [Filament](https://filamentphp.com) plugin that enables rapid scaffol
 
 <div align="center" class="filament-hidden">
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/lartisan/filament-dictionary.svg)](https://packagist.org/packages/lartisan/filament-dictionary)
-[![GitHub Tests](https://img.shields.io/github/actions/workflow/status/lartisan/filament-dictionary/tests.yml?label=Tests)](https://github.com/lartisan/filament-dictionary/actions)
-[![Total Downloads](https://img.shields.io/packagist/dt/lartisan/filament-dictionary.svg)](https://packagist.org/packages/lartisan/filament-dictionary)
-[![License](https://img.shields.io/packagist/l/lartisan/filament-dictionary.svg)](https://packagist.org/packages/lartisan/filament-dictionary)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/ribeiroconde/filament-dictionary.svg)](https://packagist.org/packages/ribeiroconde/filament-dictionary)
+[![GitHub Tests](https://img.shields.io/github/actions/workflow/status/ribeiroconde/filament-dictionary/tests.yml?label=Tests)](https://github.com/ribeiroconde/filament-dictionary/actions)
+[![Total Downloads](https://img.shields.io/packagist/dt/ribeiroconde/filament-dictionary.svg)](https://packagist.org/packages/ribeiroconde/filament-dictionary)
+[![License](https://img.shields.io/packagist/l/ribeiroconde/filament-dictionary.svg)](https://packagist.org/packages/ribeiroconde/filament-dictionary)
 [![Live Demo](https://img.shields.io/badge/Live_Demo-dictionary.filamentcomponents.com-blue)](https://dictionary.filamentcomponents.com/)
 
 </div>
@@ -25,7 +25,7 @@ A powerful [Filament](https://filamentphp.com) plugin that enables rapid scaffol
 > **Upgrading from `v0.2.x` or earlier?** `v1.0.0` introduces new database migrations.
 >
 > ```bash
-> composer require lartisan/filament-dictionary:^1.0
+> composer require ribeiroconde/filament-dictionary:^1.0
 > php artisan dictionary:upgrade
 > ```
 >
@@ -53,12 +53,12 @@ The current implementation is built for iterative work, not just first-time scaf
 4. Open the **Dictionary** action in your panel and generate your first resource stack.
 
 ```bash
-composer require lartisan/filament-dictionary
+composer require ribeiroconde/filament-dictionary
 php artisan dictionary:install
 ```
 
 ```php
-use Lartisan\Dictionary\DictionaryPlugin;
+use ribeiroconde\Dictionary\DictionaryPlugin;
 
 ->plugins([
     DictionaryPlugin::make(),
@@ -196,7 +196,7 @@ Dictionary Core now exposes a small set of stable extension points so premium mo
 Minimal access example:
 
 ```php
-use Lartisan\Dictionary\DictionaryPlugin;
+use ribeiroconde\Dictionary\DictionaryPlugin;
 
 DictionaryPlugin::capabilities()->define('premium.blocks', true);
 
@@ -292,7 +292,7 @@ Until pricing and packaging are finalized, it is safest to describe this as:
 ### Fresh install
 
 ```bash
-composer require lartisan/filament-dictionary
+composer require ribeiroconde/filament-dictionary
 php artisan dictionary:install
 ```
 
@@ -305,7 +305,7 @@ namespace App\Providers\Filament;
 
 use Filament\Panel;
 use Filament\PanelProvider;
-use Lartisan\Dictionary\DictionaryPlugin;
+use ribeiroconde\Dictionary\DictionaryPlugin;
 
 class AdminPanelProvider extends PanelProvider
 {
@@ -326,7 +326,7 @@ class AdminPanelProvider extends PanelProvider
 If you are upgrading from any pre-1.0.0 release (`v0.2.x`, `v0.1.x`, etc.):
 
 ```bash
-composer require lartisan/filament-dictionary:^1.0
+composer require ribeiroconde/filament-dictionary:^1.0
 php artisan dictionary:upgrade
 ```
 
@@ -349,7 +349,7 @@ namespace App\Providers\Filament;
 
 use Filament\Panel;
 use Filament\PanelProvider;
-use Lartisan\Dictionary\DictionaryPlugin;
+use ribeiroconde\Dictionary\DictionaryPlugin;
 
 class AdminPanelProvider extends PanelProvider
 {
@@ -367,7 +367,7 @@ Optional plugin customization:
 
 ```php
 use Filament\View\PanelsRenderHook;
-use Lartisan\Dictionary\DictionaryPlugin;
+use ribeiroconde\Dictionary\DictionaryPlugin;
 
 DictionaryPlugin::make()
     ->iconButton()

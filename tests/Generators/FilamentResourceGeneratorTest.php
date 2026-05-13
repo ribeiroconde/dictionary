@@ -1,14 +1,14 @@
 <?php
 
-namespace Lartisan\Dictionary\Tests\Generators;
+namespace ribeiroconde\Dictionary\Tests\Generators;
 
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Schema;
-use Lartisan\Dictionary\Generators\FilamentResourceGenerator;
-use Lartisan\Dictionary\Support\GenerationPathResolver;
-use Lartisan\Dictionary\Tests\TestCase;
-use Lartisan\Dictionary\ValueObjects\BlueprintData;
+use ribeiroconde\Dictionary\Generators\FilamentResourceGenerator;
+use ribeiroconde\Dictionary\Support\GenerationPathResolver;
+use ribeiroconde\Dictionary\Tests\TestCase;
+use ribeiroconde\Dictionary\ValueObjects\BlueprintData;
 
 uses(TestCase::class);
 

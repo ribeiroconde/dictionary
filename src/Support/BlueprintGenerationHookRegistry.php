@@ -1,10 +1,10 @@
 <?php
 
-namespace Lartisan\Dictionary\Support;
+namespace ribeiroconde\Dictionary\Support;
 
-use Lartisan\Dictionary\Models\Blueprint;
-use Lartisan\Dictionary\ValueObjects\BlueprintData;
-use Lartisan\Dictionary\ValueObjects\RegenerationPlan;
+use ribeiroconde\Dictionary\Models\Blueprint;
+use ribeiroconde\Dictionary\ValueObjects\BlueprintData;
+use ribeiroconde\Dictionary\ValueObjects\RegenerationPlan;
 
 class BlueprintGenerationHookRegistry
 {

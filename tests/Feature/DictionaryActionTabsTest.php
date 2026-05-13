@@ -5,12 +5,12 @@ use Filament\Schemas\Components\Wizard as WizardComponent;
 use Filament\Schemas\Components\Wizard\Step as WizardStep;
 use Filament\Schemas\Schema;
 use Illuminate\Support\Facades\DB;
-use Lartisan\Dictionary\Actions\DictionaryAction;
-use Lartisan\Dictionary\Livewire\DictionaryWizard;
-use Lartisan\Dictionary\Models\Blueprint as DictionaryBlueprint;
-use Lartisan\Dictionary\Support\DictionaryUiExtensionRegistry;
-use Lartisan\Dictionary\Tests\TestCase;
-use Lartisan\Dictionary\ValueObjects\BlueprintData;
+use ribeiroconde\Dictionary\Actions\DictionaryAction;
+use ribeiroconde\Dictionary\Livewire\DictionaryWizard;
+use ribeiroconde\Dictionary\Models\Blueprint as DictionaryBlueprint;
+use ribeiroconde\Dictionary\Support\DictionaryUiExtensionRegistry;
+use ribeiroconde\Dictionary\Tests\TestCase;
+use ribeiroconde\Dictionary\ValueObjects\BlueprintData;
 
 uses(TestCase::class);
 

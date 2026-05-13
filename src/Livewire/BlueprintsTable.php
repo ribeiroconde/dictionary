@@ -1,6 +1,6 @@
 <?php
 
-namespace Lartisan\Dictionary\Livewire;
+namespace ribeiroconde\Dictionary\Livewire;
 
 use Filament\Actions\Action;
 use Filament\Actions\ActionGroup;
@@ -17,9 +17,9 @@ use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Concerns\InteractsWithTable;
 use Filament\Tables\Contracts\HasTable;
 use Filament\Tables\Table;
-use Lartisan\Dictionary\Models\Blueprint;
-use Lartisan\Dictionary\Support\DictionaryUiExtensionRegistry;
-use Lartisan\Dictionary\Support\BlueprintDeletionService;
+use ribeiroconde\Dictionary\Models\Blueprint;
+use ribeiroconde\Dictionary\Support\DictionaryUiExtensionRegistry;
+use ribeiroconde\Dictionary\Support\BlueprintDeletionService;
 use Livewire\Attributes\On;
 use Livewire\Component;
 

@@ -1,12 +1,12 @@
 <?php
 
-namespace Lartisan\Dictionary\Generators;
+namespace ribeiroconde\Dictionary\Generators;
 
 use Illuminate\Support\Facades\File;
-use Lartisan\Dictionary\Enums\GenerationMode;
-use Lartisan\Dictionary\Support\GenerationPathResolver;
-use Lartisan\Dictionary\Support\SeederUpdater;
-use Lartisan\Dictionary\ValueObjects\BlueprintData;
+use ribeiroconde\Dictionary\Enums\GenerationMode;
+use ribeiroconde\Dictionary\Support\GenerationPathResolver;
+use ribeiroconde\Dictionary\Support\SeederUpdater;
+use ribeiroconde\Dictionary\ValueObjects\BlueprintData;
 
 readonly class SeederGenerator extends AbstractGenerator
 {

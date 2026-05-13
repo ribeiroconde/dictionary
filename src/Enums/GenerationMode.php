@@ -1,6 +1,6 @@
 <?php
 
-namespace Lartisan\Dictionary\Enums;
+namespace ribeiroconde\Dictionary\Enums;
 
 use Illuminate\Container\Container;
 

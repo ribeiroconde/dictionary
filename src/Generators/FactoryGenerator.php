@@ -1,12 +1,12 @@
 <?php
 
-namespace Lartisan\Dictionary\Generators;
+namespace ribeiroconde\Dictionary\Generators;
 
 use Illuminate\Support\Facades\File;
-use Lartisan\Dictionary\Enums\GenerationMode;
-use Lartisan\Dictionary\Support\FactoryUpdater;
-use Lartisan\Dictionary\Support\GenerationPathResolver;
-use Lartisan\Dictionary\ValueObjects\BlueprintData;
+use ribeiroconde\Dictionary\Enums\GenerationMode;
+use ribeiroconde\Dictionary\Support\FactoryUpdater;
+use ribeiroconde\Dictionary\Support\GenerationPathResolver;
+use ribeiroconde\Dictionary\ValueObjects\BlueprintData;
 
 readonly class FactoryGenerator extends AbstractGenerator
 {

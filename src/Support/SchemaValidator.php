@@ -1,8 +1,8 @@
 <?php
 
-namespace Lartisan\Dictionary\Support;
+namespace ribeiroconde\Dictionary\Support;
 
-use Lartisan\Dictionary\Exceptions\InvalidBlueprintException;
+use ribeiroconde\Dictionary\Exceptions\InvalidBlueprintException;
 
 class SchemaValidator
 {

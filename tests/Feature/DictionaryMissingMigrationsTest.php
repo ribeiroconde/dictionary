@@ -2,8 +2,8 @@
 
 use Filament\Notifications\Notification;
 use Illuminate\Support\Facades\Schema;
-use Lartisan\Dictionary\Livewire\DictionaryWizard;
-use Lartisan\Dictionary\Tests\TestCase;
+use ribeiroconde\Dictionary\Livewire\DictionaryWizard;
+use ribeiroconde\Dictionary\Tests\TestCase;
 
 uses(TestCase::class);
 

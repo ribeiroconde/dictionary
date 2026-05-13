@@ -1,16 +1,16 @@
 <?php
 
-namespace Lartisan\Dictionary\Support;
+namespace ribeiroconde\Dictionary\Support;
 
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Str;
-use Lartisan\Dictionary\Enums\GenerationMode;
-use Lartisan\Dictionary\ValueObjects\BlueprintData;
-use Lartisan\Dictionary\ValueObjects\PlannedArtifact;
-use Lartisan\Dictionary\ValueObjects\PlannedSchemaOperation;
-use Lartisan\Dictionary\ValueObjects\RegenerationPlan;
+use ribeiroconde\Dictionary\Enums\GenerationMode;
+use ribeiroconde\Dictionary\ValueObjects\BlueprintData;
+use ribeiroconde\Dictionary\ValueObjects\PlannedArtifact;
+use ribeiroconde\Dictionary\ValueObjects\PlannedSchemaOperation;
+use ribeiroconde\Dictionary\ValueObjects\RegenerationPlan;
 
 class RegenerationPlanner
 {

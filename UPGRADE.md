@@ -12,7 +12,7 @@ If you are upgrading from any release prior to `v1.0.0`, run `dictionary:upgrade
 2. Run `dictionary:upgrade`.
 
 ```bash
-composer require lartisan/filament-dictionary:^1.0
+composer require ribeiroconde/filament-dictionary:^1.0
 php artisan dictionary:upgrade
 ```
 

@@ -1,7 +1,7 @@
 <?php
 
-use Lartisan\Dictionary\Livewire\DictionaryTrigger;
-use Lartisan\Dictionary\Tests\TestCase;
+use ribeiroconde\Dictionary\Livewire\DictionaryTrigger;
+use ribeiroconde\Dictionary\Tests\TestCase;
 
 uses(TestCase::class);
 

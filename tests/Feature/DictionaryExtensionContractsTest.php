@@ -5,16 +5,16 @@ use Filament\Schemas\Components\Tabs;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Schema;
-use Lartisan\Dictionary\DictionaryPlugin;
-use Lartisan\Dictionary\Contracts\DictionaryBlockProvider;
-use Lartisan\Dictionary\Support\DictionaryBlockRegistry;
-use Lartisan\Dictionary\Support\DictionaryCapabilityRegistry;
-use Lartisan\Dictionary\Support\DictionaryUiExtensionRegistry;
-use Lartisan\Dictionary\Support\BlueprintGenerationHookRegistry;
-use Lartisan\Dictionary\Support\BlueprintGenerationService;
-use Lartisan\Dictionary\Support\GenerationPathResolver;
-use Lartisan\Dictionary\Tests\TestCase;
-use Lartisan\Dictionary\ValueObjects\BlueprintData;
+use ribeiroconde\Dictionary\DictionaryPlugin;
+use ribeiroconde\Dictionary\Contracts\DictionaryBlockProvider;
+use ribeiroconde\Dictionary\Support\DictionaryBlockRegistry;
+use ribeiroconde\Dictionary\Support\DictionaryCapabilityRegistry;
+use ribeiroconde\Dictionary\Support\DictionaryUiExtensionRegistry;
+use ribeiroconde\Dictionary\Support\BlueprintGenerationHookRegistry;
+use ribeiroconde\Dictionary\Support\BlueprintGenerationService;
+use ribeiroconde\Dictionary\Support\GenerationPathResolver;
+use ribeiroconde\Dictionary\Tests\TestCase;
+use ribeiroconde\Dictionary\ValueObjects\BlueprintData;
 
 uses(TestCase::class);
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Lartisan\Dictionary\Tests\Feature;
+namespace ribeiroconde\Dictionary\Tests\Feature;
 
 use Filament\Actions\Action;
 use Filament\Tables\Table;
@@ -8,18 +8,18 @@ use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Schema;
-use Lartisan\Dictionary\Generators\FactoryGenerator;
-use Lartisan\Dictionary\Generators\FilamentResourceGenerator;
-use Lartisan\Dictionary\Generators\MigrationGenerator;
-use Lartisan\Dictionary\Generators\ModelGenerator;
-use Lartisan\Dictionary\Generators\SeederGenerator;
-use Lartisan\Dictionary\Livewire\BlueprintsTable;
-use Lartisan\Dictionary\Models\Blueprint;
-use Lartisan\Dictionary\Support\DictionaryUiExtensionRegistry;
-use Lartisan\Dictionary\Support\BlueprintDeletionService;
-use Lartisan\Dictionary\Support\GenerationPathResolver;
-use Lartisan\Dictionary\Tests\TestCase;
-use Lartisan\Dictionary\ValueObjects\BlueprintData;
+use ribeiroconde\Dictionary\Generators\FactoryGenerator;
+use ribeiroconde\Dictionary\Generators\FilamentResourceGenerator;
+use ribeiroconde\Dictionary\Generators\MigrationGenerator;
+use ribeiroconde\Dictionary\Generators\ModelGenerator;
+use ribeiroconde\Dictionary\Generators\SeederGenerator;
+use ribeiroconde\Dictionary\Livewire\BlueprintsTable;
+use ribeiroconde\Dictionary\Models\Blueprint;
+use ribeiroconde\Dictionary\Support\DictionaryUiExtensionRegistry;
+use ribeiroconde\Dictionary\Support\BlueprintDeletionService;
+use ribeiroconde\Dictionary\Support\GenerationPathResolver;
+use ribeiroconde\Dictionary\Tests\TestCase;
+use ribeiroconde\Dictionary\ValueObjects\BlueprintData;
 
 uses(TestCase::class);
 

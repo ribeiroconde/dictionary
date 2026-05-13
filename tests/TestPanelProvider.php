@@ -1,6 +1,6 @@
 <?php
 
-namespace Lartisan\Dictionary\Tests;
+namespace ribeiroconde\Dictionary\Tests;
 
 use Filament\Http\Middleware\Authenticate;
 use Filament\Http\Middleware\DisableBladeIconComponents;

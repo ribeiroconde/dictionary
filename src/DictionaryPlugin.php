@@ -1,6 +1,6 @@
 <?php
 
-namespace Lartisan\Dictionary;
+namespace ribeiroconde\Dictionary;
 
 use Composer\InstalledVersions;
 use Filament\Contracts\Plugin;
@@ -8,10 +8,10 @@ use Filament\Panel;
 use Filament\Support\Facades\FilamentView;
 use Filament\View\PanelsRenderHook;
 use Illuminate\Support\Facades\Blade;
-use Lartisan\Dictionary\Support\DictionaryBlockRegistry;
-use Lartisan\Dictionary\Support\DictionaryCapabilityRegistry;
-use Lartisan\Dictionary\Support\DictionaryUiExtensionRegistry;
-use Lartisan\Dictionary\Support\BlueprintGenerationHookRegistry;
+use ribeiroconde\Dictionary\Support\DictionaryBlockRegistry;
+use ribeiroconde\Dictionary\Support\DictionaryCapabilityRegistry;
+use ribeiroconde\Dictionary\Support\DictionaryUiExtensionRegistry;
+use ribeiroconde\Dictionary\Support\BlueprintGenerationHookRegistry;
 
 class DictionaryPlugin implements Plugin
 {
@@ -166,6 +166,6 @@ class DictionaryPlugin implements Plugin
 
     public static function version(): string
     {
-        return InstalledVersions::getPrettyVersion('lartisan/filament-dictionary') ?? 'dev';
+        return InstalledVersions::getPrettyVersion('ribeiroconde/filament-dictionary') ?? 'dev';
     }
 }

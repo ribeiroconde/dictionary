@@ -1,6 +1,6 @@
 <?php
 
-namespace Lartisan\Dictionary\Livewire;
+namespace ribeiroconde\Dictionary\Livewire;
 
 use Filament\Actions\Action;
 use Filament\Actions\Concerns\InteractsWithActions;
@@ -8,10 +8,10 @@ use Filament\Actions\Contracts\HasActions;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Notifications\Notification;
-use Lartisan\Dictionary\Actions\DictionaryAction;
-use Lartisan\Dictionary\Models\Blueprint as DictionaryBlueprint;
-use Lartisan\Dictionary\Support\DictionaryMigrationStatus;
-use Lartisan\Dictionary\Support\BlueprintDeletionService;
+use ribeiroconde\Dictionary\Actions\DictionaryAction;
+use ribeiroconde\Dictionary\Models\Blueprint as DictionaryBlueprint;
+use ribeiroconde\Dictionary\Support\DictionaryMigrationStatus;
+use ribeiroconde\Dictionary\Support\BlueprintDeletionService;
 use Livewire\Attributes\On;
 use Livewire\Component;
 

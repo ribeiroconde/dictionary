@@ -1,14 +1,14 @@
 {
-  "name": "lartisan/filament-dictionary",
+  "name": "ribeiroconde/filament-dictionary",
   "description": "A step-by-step wizard to generate full Eloquent and Filament resources straight from the Filament panel",
   "keywords": [
-    "lartisan",
+    "ribeiroconde",
     "filament",
     "dictionary",
     "plugin",
     "generator"
   ],
-  "homepage": "https://github.com/lartisan/filament-dictionary",
+  "homepage": "https://github.com/ribeiroconde/filament-dictionary",
   "license": "MIT",
   "authors": [
     {
@@ -34,18 +34,18 @@
   },
   "autoload": {
     "psr-4": {
-      "Lartisan\\Dictionary\\": "src/"
+      "ribeiroconde\\Dictionary\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Lartisan\\Dictionary\\Tests\\": "tests/"
+      "ribeiroconde\\Dictionary\\Tests\\": "tests/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Lartisan\\Dictionary\\DictionaryServiceProvider"
+        "ribeiroconde\\Dictionary\\DictionaryServiceProvider"
       ]
     }
   },

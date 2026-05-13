@@ -1,8 +1,8 @@
 <?php
 
-use Lartisan\Dictionary\DictionaryPlugin;
-use Lartisan\Dictionary\Livewire\DictionaryWizard;
-use Lartisan\Dictionary\Tests\TestCase;
+use ribeiroconde\Dictionary\DictionaryPlugin;
+use ribeiroconde\Dictionary\Livewire\DictionaryWizard;
+use ribeiroconde\Dictionary\Tests\TestCase;
 
 uses(TestCase::class);
 

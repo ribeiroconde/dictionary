@@ -1,6 +1,6 @@
 <?php
 
-namespace Lartisan\Dictionary\Exceptions;
+namespace ribeiroconde\Dictionary\Exceptions;
 
 use Exception;
 

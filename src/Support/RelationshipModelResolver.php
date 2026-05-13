@@ -1,11 +1,11 @@
 <?php
 
-namespace Lartisan\Dictionary\Support;
+namespace ribeiroconde\Dictionary\Support;
 
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Str;
-use Lartisan\Dictionary\Models\Blueprint;
-use Lartisan\Dictionary\ValueObjects\ColumnDefinition;
+use ribeiroconde\Dictionary\Models\Blueprint;
+use ribeiroconde\Dictionary\ValueObjects\ColumnDefinition;
 
 class RelationshipModelResolver
 {

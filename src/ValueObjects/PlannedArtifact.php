@@ -1,6 +1,6 @@
 <?php
 
-namespace Lartisan\Dictionary\ValueObjects;
+namespace ribeiroconde\Dictionary\ValueObjects;
 
 readonly class PlannedArtifact
 {

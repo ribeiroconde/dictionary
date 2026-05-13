@@ -1,13 +1,13 @@
 <?php
 
-namespace Lartisan\Dictionary\Models;
+namespace ribeiroconde\Dictionary\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;
-use Lartisan\Dictionary\Enums\GenerationMode;
-use Lartisan\Dictionary\ValueObjects\BlueprintData;
-use Lartisan\Dictionary\ValueObjects\BlueprintRevisionSnapshot;
+use ribeiroconde\Dictionary\Enums\GenerationMode;
+use ribeiroconde\Dictionary\ValueObjects\BlueprintData;
+use ribeiroconde\Dictionary\ValueObjects\BlueprintRevisionSnapshot;
 
 class Blueprint extends Model
 {

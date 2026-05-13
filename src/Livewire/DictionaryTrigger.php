@@ -1,9 +1,9 @@
 <?php
 
-namespace Lartisan\Dictionary\Livewire;
+namespace ribeiroconde\Dictionary\Livewire;
 
 use Filament\Support\Icons\Heroicon;
-use Lartisan\DictionaryPro\DictionaryProServiceProvider;
+use ribeiroconde\DictionaryPro\DictionaryProServiceProvider;
 use Livewire\Component;
 
 class DictionaryTrigger extends Component

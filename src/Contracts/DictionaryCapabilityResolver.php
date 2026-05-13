@@ -1,6 +1,6 @@
 <?php
 
-namespace Lartisan\Dictionary\Contracts;
+namespace ribeiroconde\Dictionary\Contracts;
 
 interface DictionaryCapabilityResolver
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Lartisan\Dictionary\ValueObjects;
+namespace ribeiroconde\Dictionary\ValueObjects;
 
-use Lartisan\Dictionary\Models\BlueprintRevision;
+use ribeiroconde\Dictionary\Models\BlueprintRevision;
 
 readonly class BlueprintRevisionSnapshot
 {
