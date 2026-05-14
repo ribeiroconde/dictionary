@@ -39,7 +39,17 @@ class {{ resource_class }} extends Resource
             //
         ];
     }
+    public static function getModelLabel(): string
+    {
+        return __('name');
+    }
 
+
+    protected function getSubheading(): ?string
+    {
+        
+        return __('title');
+    }
     public static function getPages(): array
     {
         return [

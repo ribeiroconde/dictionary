@@ -44,6 +44,8 @@ readonly class ModelGenerator extends AbstractGenerator
             '{{ namespace }}' => GenerationPathResolver::modelsNamespace(),
             '{{ imports }}' => $blueprint->getTraitImports().$this->getRelationshipImports($blueprint),
             '{{ class }}' => $blueprint->modelName,
+            '{{ table_name }}' => $blueprint->name,
+
             '{{ traits }}' => $blueprint->getModelTraits(),
             '{{ fillable }}' => $blueprint->getFillableAttributes(),
             '{{ relationships }}' => $this->generateRelationships($blueprint),

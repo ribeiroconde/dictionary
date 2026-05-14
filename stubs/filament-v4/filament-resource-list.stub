@@ -9,7 +9,11 @@ use Filament\Resources\Pages\ListRecords;
 class List{{ model_plural_class }} extends ListRecords
 {
     protected static string $resource = {{ resource_class }}::class;
-
+    
+    public function getHeading(): string
+    {
+        return __('{{ listaregistro }}'); ;
+    }
     protected function getHeaderActions(): array
     {
         return [

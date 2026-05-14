@@ -8,6 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class {{ class }} extends Model
 {
     {{ traits }}
+    protected $table = {{ table_name }} ;
+    protected static ?string $modelLabel = {{ namespace  }}}  ;
+    protected static ?string $pluralModelLabel = {{ namespace }}s;
 
     /** @var array<int, string> */
     protected $fillable = [

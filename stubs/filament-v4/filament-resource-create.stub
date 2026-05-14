@@ -8,5 +8,10 @@ use Filament\Resources\Pages\CreateRecord;
 class Create{{ model_class }} extends CreateRecord
 {
     protected static string $resource = {{ resource_class }}::class;
+    
+    public function getHeading(): string
+    {
+        return __('{{ novoregistro }}');
+    }
 }
 

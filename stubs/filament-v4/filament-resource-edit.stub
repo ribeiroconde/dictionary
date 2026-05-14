@@ -10,6 +10,11 @@ class Edit{{ model_class }} extends EditRecord
 {
     protected static string $resource = {{ resource_class }}::class;
 
+    public function getHeading(): string
+    {
+        return __('{{alteraregistro}}');
+    }
+
     protected function getHeaderActions(): array
     {
         return [
